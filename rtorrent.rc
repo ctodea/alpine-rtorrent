@@ -1,0 +1,15 @@
+throttle.min_peers.seed.set = 10
+throttle.max_peers.seed.set = 50
+throttle.max_uploads.set = 5
+throttle.global_down.max_rate.set_kb = 0
+throttle.global_up.max_rate.set_kb = 1000
+
+directory.default.set = /home/rtorrent/downloaded
+
+session.path.set = /home/rtorrent/session
+
+schedule2 = low_diskspace,5,60,close_low_diskspace=2000M
+
+trackers.use_udp.set = no
+
+protocol.pex.set = yes
